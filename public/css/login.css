@@ -1,0 +1,39 @@
+body{
+    overflow: hidden;
+}
+#img1 {
+    height: 87%;
+    width: 100%;
+    margin-top: 9%;
+}
+.row {
+    margin: 1px;
+}
+#col{
+    right: 18%;
+}
+
+@media only screen and (max-width: 600px) {
+    #img1{
+        display: block;
+        transform: scale(0.555);
+        margin-left: 19px;
+    }
+    .row {
+        display: block;
+        width: 300%;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    #col2 {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}
+#input{
+    border-radius: 13px;
+}
+

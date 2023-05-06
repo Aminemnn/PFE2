@@ -1,0 +1,32 @@
+input[type="radio"] {
+    display: none;
+    margin: auto;
+}
+
+label img {
+    cursor: pointer;
+    border: 2px solid transparent;
+    transform: scale(0.5);
+}
+
+
+.radio-container{
+    border: 2px solid #E1ECFE;
+    background-color: #E1ECFE;
+    border-radius: 13px;
+}
+.radio-containe2{
+    border: 2px solid #E1ECFE;
+    background-color: #E1ECFE;
+    border-radius: 13px;
+}
+.radio-containe2:hover{
+    background-color: #C7DCFF;
+}
+.radio-container:hover{
+    background-color: #C7DCFF;
+}
+input[type="radio"]:checked + .radio-container{
+background-color: #2563eb;
+
+}
